@@ -8,16 +8,23 @@ Réponse: main-FT3QBEBB.js: 56.93 kB ; polyfills-FFHMD2TL.js:11.28 kB ; styles-5
 Réponse: Le fichier est illisible, pas d’espaces, donc super dur a lire. Minifier reduit la taille a transferer et a stocker, donc moins de bande passante et d’energie. En mode dev on ne minifie pas: si y’a un bug, c’est l’enfer pour debugguer
 
 # Q4 : Donner la tailles des fichiers générer par la commande.
-Réponse:
+Réponse: dist/index.html   0.46 kB 
+dist/assets/react-CHdo91hT.svg    4.13 kB 
+dist/assets/index-Ck_6z9u0.css    5.65 kB 
+dist/assets/index-DjOYzNxq.js   144.35 kB 
 
 # Q5: Quel est l'intérêt du HMR ?
-Réponse:
+Réponse: Avec HMR on voit les changements instantanément donc c'est plus rapide et fluide. 
 
 # Q6: Donner la tailles des fichiers générer par la commande. Pourquoi il faut être vigilant sur les libraires et autre composant qu'on ajoute dans nos applications d'un point de vue éco-responsable ?
-Réponse:
+Réponse: dist/index.html  0.46 kB 
+dist/assets/react-CHdo91hT.svg    4.13 kB 
+dist/assets/index-Ck_6z9u0.css    5.65 kB 
+dist/assets/index-CXkX2fal.js   157.22 kB 
+Chaque librairie alourdit l'application c'est plus de donnees a transferer donc plus de temps CPU et d'energie.
 
 # Q7: Noter les nom des différents fichiers qui ont été générés par la commande.
-Réponse:
+Réponse: 
 
 # Q8 : Noter les nom des différents fichiers .js qui sont chargés au moment du chargement de la page.
 Réponse:
