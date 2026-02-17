@@ -24,22 +24,27 @@ dist/assets/index-CXkX2fal.js   157.22 kB
 Chaque librairie alourdit l'application c'est plus de donnees a transferer donc plus de temps CPU et d'energie.
 
 # Q7: Noter les nom des différents fichiers qui ont été générés par la commande.
-Réponse: 
+Réponse: dist/about/index.html 
+dist/index.html
+dist/assets/style-b4SyXn9O.css 
+dist/assets/about-D08RWGIN.js   
+dist/assets/style-Dgd37vtf.js  
+dist/assets/main-QCVwn2m0.js 
 
 # Q8 : Noter les nom des différents fichiers .js qui sont chargés au moment du chargement de la page.
-Réponse:
+Réponse: main-QCVwn2m0.js ; style-Dgd37vtf.js 
 
 # Q9 : Noter les nom des différents fichiers .js qui sont chargés au moment du changement de page.
-Réponse:
+Réponse: 
 
 
 # Q10: Quel est l'intérêt de lu Code Splitting d'un point de vue éco-responsable ?
-Réponse:
+Réponse: Comme on charge que ce qui est necessaire au moment T on a moins de JS à télécharger et donc on a des pages plus légères = moins de bande passante et d'énérgie consommée. 
 
 
 # Q11: Ajouter le screen de votre score :
-Screen:
-
+Screen: 
+![alt text](<./Capture d’écran 2026-02-17 à 16.12.22.png>)
 
 # Q12:  Proposition 1
 Description:
