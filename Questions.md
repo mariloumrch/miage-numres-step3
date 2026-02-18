@@ -47,19 +47,17 @@ Screen:
 ![alt text](<./Capture d’écran 2026-02-17 à 16.12.22.png>)
 
 # Q12:  Proposition 1
-Description:
-Nb de requête total du parcours de l'utilisateur:
-Taille total des requêtes du parcours de l'utilisateur:
-Taille total des fichiers généré :
+Description: Remplacer Font Awesome CDN par des abréviations texte simples pour reduire les requetes externes et la taille des dependances.
+Gain: -1 requete HTTP externe, -70KB de librairie Font Awesome
+Implementation: On supprime le lien CDN dans index.html et on remplace des classes .fa par des symboles abréviations avec attributs. 
 
 # Q13:  Proposition 2
-Description:
-Nb de requête total du parcours de l'utilisateur:
-Taille total des requêtes du parcours de l'utilisateur:
-Taille total des fichiers généré :
+Description: Remplacer le GIF de 694KB par un SVG optimise (<1KB) pour l'image d'un point d'interrogation
+Gain: -693KB sur l'image (694KB -> ~0.5KB), meme rendu visuel
+Implementation: On créer un question.svg avec simple texte "?" sur fond violet et on le remplace dans main.js.
 
 # Q14:  Proposition 3
-Description:
+Description: 
 Nb de requête total du parcours de l'utilisateur:
 Taille total des requêtes du parcours de l'utilisateur:
 Taille total des fichiers générés :

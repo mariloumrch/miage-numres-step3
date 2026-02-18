@@ -9,26 +9,26 @@ document.querySelector('#app').innerHTML = `
 
 
         <div class="topnav">
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-google"></a>
-          <a href="#" class="fa fa-linkedin"></a>
-          <a href="#" class="fa fa-youtube"></a>
-          <a href="#" class="fa fa-instagram"></a>
-          <a href="#" class="fa fa-pinterest"></a>
-          <a href="#" class="fa fa-snapchat-ghost"></a>
-          <a href="#" class="fa fa-skype"></a>
-          <a href="#" class="fa fa-android"></a>
-          <a href="#" class="fa fa-dribbble"></a>
-          <a href="#" class="fa fa-vimeo"></a>
-          <a href="#" class="fa fa-tumblr"></a>
-          <a href="#" class="fa fa-vine"></a>
-          <a href="#" class="fa fa-foursquare"></a>
-          <a href="#" class="fa fa-stumbleupon"></a>
-          <a href="#" class="fa fa-flickr"></a>
-          <a href="#" class="fa fa-yahoo"></a>
-          <a href="#" class="fa fa-reddit"></a>
-          <a href="#" class="fa fa-rss"></a>
+          <a href="#" class="social-icon" data-network="facebook" aria-label="Facebook">FB</a>
+          <a href="#" class="social-icon" data-network="twitter" aria-label="Twitter">TW</a>
+          <a href="#" class="social-icon" data-network="google" aria-label="Google">G+</a>
+          <a href="#" class="social-icon" data-network="linkedin" aria-label="LinkedIn">IN</a>
+          <a href="#" class="social-icon" data-network="youtube" aria-label="YouTube">YT</a>
+          <a href="#" class="social-icon" data-network="instagram" aria-label="Instagram">IG</a>
+          <a href="#" class="social-icon" data-network="pinterest" aria-label="Pinterest">PIN</a>
+          <a href="#" class="social-icon" data-network="snapchat" aria-label="Snapchat">SC</a>
+          <a href="#" class="social-icon" data-network="skype" aria-label="Skype">SK</a>
+          <a href="#" class="social-icon" data-network="android" aria-label="Android">AND</a>
+          <a href="#" class="social-icon" data-network="dribbble" aria-label="Dribbble">DR</a>
+          <a href="#" class="social-icon" data-network="vimeo" aria-label="Vimeo">VM</a>
+          <a href="#" class="social-icon" data-network="tumblr" aria-label="Tumblr">TU</a>
+          <a href="#" class="social-icon" data-network="vine" aria-label="Vine">VN</a>
+          <a href="#" class="social-icon" data-network="foursquare" aria-label="Foursquare">4SQ</a>
+          <a href="#" class="social-icon" data-network="stumbleupon" aria-label="StumbleUpon">SU</a>
+          <a href="#" class="social-icon" data-network="flickr" aria-label="Flickr">FL</a>
+          <a href="#" class="social-icon" data-network="yahoo" aria-label="Yahoo">Y!</a>
+          <a href="#" class="social-icon" data-network="reddit" aria-label="Reddit">RD</a>
+          <a href="#" class="social-icon" data-network="rss" aria-label="RSS">RSS</a>
         </div>
 
         <div class="row">
@@ -45,7 +45,7 @@ document.querySelector('#app').innerHTML = `
           </div>
           <div class="rightcolumn">
             <div class="card">
-              <img src="/question.gif" width="500" height="600">
+              <img src="/question.svg" width="500" height="600" alt="Question mark">
             </div>
         </div>
 
